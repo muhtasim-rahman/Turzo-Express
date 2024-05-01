@@ -1,0 +1,129 @@
+/* Navbar starts here */
+.hidden-br {
+  display: none;
+}
+nav {
+  font-size: 1.2rem;
+}
+.nav__brand {
+  font-size: 2rem;
+}
+/* Navbar ends here */
+
+/* Header starts here */
+.header {
+  padding: 5rem 0;
+  height: 80vh;
+}
+.banner__title {
+  font-size: 4rem;
+  padding: 1rem 0 3rem 0;
+}
+.feature {
+  width: 15rem;
+  gap: 1rem;
+}
+.feature h3 {
+  font-size: 1.3rem;
+}
+/* Header ends here */
+
+/* Main starts here */
+main {
+  flex-direction: row;
+  min-height: 80vh;
+}
+.sidebar {
+  flex: 1.5;
+  padding: 0 1rem;
+}
+/************************************/
+.main-container {
+  display: flex;
+  flex: 6;
+  padding: var(--padding);
+}
+.acction__sort select {
+  padding: var(--padding);
+  width: 12rem;
+}
+.acctions__scearch input {
+  padding: var(--padding);
+  width: 15rem;
+}
+.acctions__scearch button {
+  margin-left: -0.24rem;
+  border: 0.1rem solid;
+}
+/*****************************************/
+.product-details {
+  flex-direction: row;
+  margin: 0;
+}
+.product-img {
+  flex: 1;
+}
+.product-img img {
+  margin: 2rem;
+  height: 22rem;
+  width: 33rem;
+}
+.product-dsc {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 2;
+  text-align: left;
+  margin-right: 4rem;
+}
+/* Main ends here */
+
+/* Cart design starts here */
+.cart {
+  display: flex;
+  flex-direction: row;
+}
+.cart__items {
+  flex: 1;
+}
+.cart__payment {
+  flex: 1;
+}
+/* Cart design ends here */
+
+/* Regester and log-in starts here */
+.regester .card,
+.login .card {
+  width: 50rem;
+}
+/* Regester and log-in ends here */
+
+/* Log out starts here */
+.log-out h2 {
+  font-size: 3rem;
+}
+/* Log out ends here */
+
+/* Contact starts here */
+.contact-section {
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+}
+.contact-container {
+  flex: 0.7;
+  height: 22rem;
+}
+.address {
+  flex-direction: column;
+  flex: 0.3;
+  height: 22rem;
+  align-items: start;
+}
+/* Contact ends here */
+
+/* Footer starts here */
+.footer__input {
+  width: 20rem;
+}
+/* Footer ends here */

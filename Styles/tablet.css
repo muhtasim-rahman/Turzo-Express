@@ -1,0 +1,120 @@
+/* Reset code and common code starts here */
+.flex-space-around {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.mobile-hr {
+  display: none;
+}
+/* Reset code and common code ends here */
+
+/* Navbar starts here */
+#menu-icon {
+  display: none;
+}
+.hidden {
+  display: block;
+}
+nav {
+  font-size: 1rem;
+}
+.nav__brand {
+  font-size: 1.5rem;
+}
+/* Navbar ends here */
+
+/* Header starts here */
+.header {
+  padding: 5rem 0;
+  height: 80vh;
+}
+.feature {
+  width: 10.5rem;
+  gap: 0.8rem;
+}
+.feature h3 {
+  font-size: 0.9rem;
+}
+/* Header ends here */
+
+/* Main starts here */
+main {
+  flex-direction: row;
+  min-height: 80vh;
+}
+.sidebar {
+  flex: 1.5;
+  padding: 0 1rem;
+}
+/************************************/
+.main-container {
+  flex-direction: column;
+  flex: 4;
+}
+/*****************************************/
+.product-details {
+  margin: 4rem;
+  margin-top: 0;
+}
+/* Main ends here */
+
+/* Cart design starts here */
+.cart__item-image {
+  width: 15rem;
+  height: 10rem;
+}
+/* Cart design ends here */
+
+/* Regester and log-in starts here */
+.regester .card,
+.login .card {
+  width: 35rem;
+}
+.form-control label {
+  flex: 0.2;
+}
+.form-control input,
+textarea {
+  flex: 0.8;
+}
+/* Regester and log-in ends here */
+
+/* Log out starts here */
+.log-out h2 {
+  font-size: 2.5rem;
+}
+.log-out__acctions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 2rem;
+}
+/* Log out ends here */
+
+/* Contact starts here */
+.address {
+  flex-direction: row;
+  flex: 5;
+}
+.location {
+  flex: 2;
+}
+.map {
+  flex: 3;
+}
+/* Contact ends here */
+
+/* Footer starts here */
+.footer {
+  font-size: 0.8rem;
+}
+.footer__input {
+  width: 11.5rem;
+  margin: 0;
+}
+.subscribe-btn {
+  margin-left: -5px;
+}
+/* Footer ends here */

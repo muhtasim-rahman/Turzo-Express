@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="This is a basic e-commerce project made with HTML and CSS" />
+  <title>Product details - Turzo Express</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="Styles/mobile.css" />
+  <link rel="stylesheet" href="Styles/tablet.css" media="screen and (min-width: 600px)" />
+  <link rel="stylesheet" href="Styles/desktop.css" media="screen and (min-width: 992px)" />
+
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <!-- Navbar starts here -->
+    <div class="menu-icon-container">
+      <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    </div>
+    <nav id="menu" class="hidden">
+      <ul class="nav-upper flex-space-around">
+        <li class="nav__list">
+          <a href="index.html" class="nav__link">Home</a>
+        </li>
+        <li class="nav__list">
+          <a href="Regester.html" class="nav__link">Regester</a>
+        </li>
+        <li class="nav__list">
+          <a href="Log in.html" class="nav__link">Log in</a>
+        </li>
+        <li class="nav__list">
+          <a href="Log out.html" class="nav__link">Log out</a>
+        </li>
+        <li class="nav__list">
+          <a href="Contact.html" class="nav__link">Contact</a>
+        </li>
+        <li class="nav__list">
+          <a href="Profile.html" class="nav__profile-picture"><img src="images/Profile Pic.jpg"
+              alt="Profile Picture" /></a>
+        </li>
+      </ul>
+      <ul class="nav-lower flex-space-around">
+        <li class="nav__list">
+          <a href="index.html" class="nav__link nav__brand">Turzo Express</a>
+        </li>
+        <li class="nav__list">
+          <a href="Cart.html" class="nav__link">
+            <span><i class="fa-solid fa-cart-shopping"></i></span>Cart: 2
+            Products - 249.60$</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Navbar ends here -->
+  </header>
+
+  <!-- Main starts here -->
+  <main class="flex-center">
+    <div class="main-content">
+      <section class="product-details flex-center">
+
+        <div class="product-img flex-center">
+          <img src="images/product1.jpg" alt="Sony V-4 Headphone" />
+        </div>
+
+        <div class="product-dsc">
+          <h3 class="product__name">Sony V-4 Headphone</h3>
+          <p>
+            <span class="dot greeen"></span>
+            <span class="dot black"></span>
+            <span class="dot red"></span>
+          </p>
+          <p class="product__dsc">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Quidem, voluptatum similique assumenda voluptates.
+          </p>
+          <p class="product__dsc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius exercitationem explicabo, nihil laborum ad
+            nostrum ut quibusdam, est consequatur consectetur quasi accusantium unde reiciendis vitae eligendi, tempora
+            cumque libero sed.
+          </p>
+          <p class="product__dsc">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, quod incidunt dolorem similique odio
+            voluptate ea exercitationem obcaecati repudiandae tenetur.
+          </p>
+          <h4 class="product__category">Category: Headphone</h4>
+          <h4 class="product__price">$59.99</h4>
+          <p class="product__raiting">Raiting: 4.5/5</p>
+          <a href="Cart.html"><button class="btn product__btn">Add to Cart</button></a>
+          <a href="index.html"><button class="btn product__btn">Back To Shoping</button></a>
+        </div>
+    </div>
+    </section>
+    </div>
+  </main>
+  <!-- Main ends here -->
+
+  <!-- Footer starts here -->
+  <footer class="flex-space-around">
+    <div>
+      <label for="subscribe">Stay Connected: </label> <br class="hidden-br" />
+      <input type="email" id="subscribe" name="subscribe" class="footer__input"
+        placeholder="Enter your E-mail address" />
+      <button class="btn subscribe-btn" type="submit">Subscribe</button>
+    </div>
+    <div>
+      <p>
+        <i class="fa-regular fa-copyright" style="color: red"></i> Turzo
+        Express. All rights reserverd 2024.1
+      </p>
+    </div>
+  </footer>
+  <!-- Footer ends here -->
+  <script src="Scripts/index.js"></script>
+</body>
+
+</html>

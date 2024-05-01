@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="This is a basic e-commerce project made with HTML and CSS" />
+  <title>Contact - Turzo Express</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="Styles/mobile.css" />
+  <link rel="stylesheet" href="Styles/tablet.css" media="screen and (min-width: 600px)" />
+  <link rel="stylesheet" href="Styles/desktop.css" media="screen and (min-width: 992px)" />
+
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Navbar starts here -->
+  <div class="menu-icon-container">
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+  </div>
+  <nav id="menu" class="hidden">
+    <ul class="nav-upper flex-space-around">
+      <li class="nav__list">
+        <a href="index.html" class="nav__link">Home</a>
+      </li>
+      <li class="nav__list">
+        <a href="Regester.html" class="nav__link">Regester</a>
+      </li>
+      <li class="nav__list">
+        <a href="Log in.html" class="nav__link">Log in</a>
+      </li>
+      <li class="nav__list">
+        <a href="Log out.html" class="nav__link">Log out</a>
+      </li>
+      <li class="nav__list">
+        <a href="Contact.html" class="nav__link" style="color: rgb(0, 34, 0); text-decoration: overline">Contact</a>
+      </li>
+      <li class="nav__list">
+        <a href="Profile.html" class="nav__profile-picture"><img src="images/Profile Pic.jpg"
+            alt="Profile Picture" /></a>
+      </li>
+    </ul>
+    <ul class="nav-lower flex-space-around">
+      <li class="nav__list">
+        <a href="index.html" class="nav__link nav__brand">Turzo Express</a>
+      </li>
+      <li class="nav__list">
+        <a href="Cart.html" class="nav__link">
+          <span><i class="fa-solid fa-cart-shopping"></i></span>Cart: 2
+          Products - 249.60$</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- Navbar ends here -->
+
+  <!-- Main starts here -->
+  <main class="contact flex-center">
+    <h2 class="Section-title text-center">Contact Turzo Express</h2>
+    <section class="contact-section">
+      <div class="contact-container card">
+        <form action="mailto:programmer.turzo@gmail.com" class="form">
+          <div class="form-control flex-center">
+            <label for="name">Name: </label>
+            <input type="text" id="name" placeholder="Enter Your fullname" autocomplete="name" required />
+          </div>
+          <div class="form-control flex-center">
+            <label for="email">E-mail: </label>
+            <input type="email" id="email" placeholder="Enter Your email" autocomplete="email" required />
+          </div>
+          <div class="form-control flex-center">
+            <label for="about-yourself">Messege: </label>
+            <textarea name="messege" id="messege" placeholder="Write here..."></textarea>
+          </div>
+          <div class="form-control flex-center">
+            <button class="btn regeser-btn" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="address card flex-space-around">
+        <div class="location">
+          <address>
+            <h4>Address:</h4>
+            <div>
+              <p>QVJW+WXR, Saidpur</p>
+              <p>Shohid Azizar Rahman Street</p>
+              <p>Chandnagar, Saidpur, Nilphamari</p>
+              <br />
+              <span>Call: </span>
+              <a href="tel:+8801580328003">01580328003</a>
+            </div>
+          </address>
+        </div>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224.54006727098087!2d88.89722849708049!3d25.782416337478136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e3513f4986a0b5%3A0x7cbf93c324fed58!2sTurzo&#39;s%20House!5e0!3m2!1sen!2sbd!4v1705410825819!5m2!1sen!2sbd"
+            style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Main ends here -->
+
+  <!-- Footer starts here -->
+  <footer class="flex-space-around">
+    <div>
+      <label for="subscribe">Stay Connected: </label> <br class="hidden-br" />
+      <input type="email" id="subscribe" name="subscribe" class="footer__input"
+        placeholder="Enter your E-mail address" />
+      <button class="btn subscribe-btn" type="submit">Subscribe</button>
+    </div>
+    <div>
+      <p>
+        <i class="fa-regular fa-copyright" style="color: red"></i> Turzo
+        Express. All rights reserverd 2024.1
+      </p>
+    </div>
+  </footer>
+  <!-- Footer ends here -->
+  <script src="Scripts/index.js"></script>
+</body>
+
+</html>
